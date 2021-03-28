@@ -14,6 +14,9 @@
 		0A6E3D7E2611264100AFE8F7 /* TeleportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D7D2611264100AFE8F7 /* TeleportTests.swift */; };
 		0A6E3D892611264100AFE8F7 /* TeleportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */; };
 		0A6E3DA3261126CE00AFE8F7 /* CitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */; };
+		0A6E3DAB261128F600AFE8F7 /* CitySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DAA261128F600AFE8F7 /* CitySearchViewModel.swift */; };
+		0A6E3DB4261129F600AFE8F7 /* CitySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DB3261129F600AFE8F7 /* CitySearch.swift */; };
+		0A6E3DBC26112A5000AFE8F7 /* CitySearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DBB26112A5000AFE8F7 /* CitySearchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleportUITests.swift; sourceTree = "<group>"; };
 		0A6E3D8A2611264100AFE8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchView.swift; sourceTree = "<group>"; };
+		0A6E3DAA261128F600AFE8F7 /* CitySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchViewModel.swift; sourceTree = "<group>"; };
+		0A6E3DB3261129F600AFE8F7 /* CitySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearch.swift; sourceTree = "<group>"; };
+		0A6E3DBB26112A5000AFE8F7 /* CitySearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,9 +158,20 @@
 		0A6E3DA1261126B500AFE8F7 /* CitySearch */ = {
 			isa = PBXGroup;
 			children = (
+				0A6E3DB2261129A300AFE8F7 /* Model */,
 				0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */,
+				0A6E3DAA261128F600AFE8F7 /* CitySearchViewModel.swift */,
 			);
 			path = CitySearch;
+			sourceTree = "<group>";
+		};
+		0A6E3DB2261129A300AFE8F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DB3261129F600AFE8F7 /* CitySearch.swift */,
+				0A6E3DBB26112A5000AFE8F7 /* CitySearchData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,8 +304,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A6E3DA3261126CE00AFE8F7 /* CitySearchView.swift in Sources */,
+				0A6E3DAB261128F600AFE8F7 /* CitySearchViewModel.swift in Sources */,
+				0A6E3DBC26112A5000AFE8F7 /* CitySearchData.swift in Sources */,
 				0A6E3D6E2611263F00AFE8F7 /* ContentView.swift in Sources */,
 				0A6E3D6C2611263F00AFE8F7 /* TeleportApp.swift in Sources */,
+				0A6E3DB4261129F600AFE8F7 /* CitySearch.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
