@@ -13,6 +13,7 @@
 		0A6E3D732611264000AFE8F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6E3D722611264000AFE8F7 /* Preview Assets.xcassets */; };
 		0A6E3D7E2611264100AFE8F7 /* TeleportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D7D2611264100AFE8F7 /* TeleportTests.swift */; };
 		0A6E3D892611264100AFE8F7 /* TeleportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */; };
+		0A6E3DA3261126CE00AFE8F7 /* CitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		0A6E3D842611264100AFE8F7 /* TeleportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleportUITests.swift; sourceTree = "<group>"; };
 		0A6E3D8A2611264100AFE8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +99,9 @@
 			children = (
 				0A6E3D6B2611263F00AFE8F7 /* TeleportApp.swift */,
 				0A6E3D6D2611263F00AFE8F7 /* ContentView.swift */,
-				0A6E3D6F2611264000AFE8F7 /* Assets.xcassets */,
 				0A6E3D742611264000AFE8F7 /* Info.plist */,
+				0A6E3DA0261126A500AFE8F7 /* Modules */,
+				0A6E3D992611264F00AFE8F7 /* Resources */,
 				0A6E3D712611264000AFE8F7 /* Preview Content */,
 			);
 			path = Teleport;
@@ -128,6 +131,30 @@
 				0A6E3D8A2611264100AFE8F7 /* Info.plist */,
 			);
 			path = TeleportUITests;
+			sourceTree = "<group>";
+		};
+		0A6E3D992611264F00AFE8F7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D6F2611264000AFE8F7 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0A6E3DA0261126A500AFE8F7 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DA1261126B500AFE8F7 /* CitySearch */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0A6E3DA1261126B500AFE8F7 /* CitySearch */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */,
+			);
+			path = CitySearch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6E3DA3261126CE00AFE8F7 /* CitySearchView.swift in Sources */,
 				0A6E3D6E2611263F00AFE8F7 /* ContentView.swift in Sources */,
 				0A6E3D6C2611263F00AFE8F7 /* TeleportApp.swift in Sources */,
 			);
