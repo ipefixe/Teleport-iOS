@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A6E3D6C2611263F00AFE8F7 /* TeleportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D6B2611263F00AFE8F7 /* TeleportApp.swift */; };
+		0A6E3D6E2611263F00AFE8F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D6D2611263F00AFE8F7 /* ContentView.swift */; };
+		0A6E3D702611264000AFE8F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6E3D6F2611264000AFE8F7 /* Assets.xcassets */; };
+		0A6E3D732611264000AFE8F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A6E3D722611264000AFE8F7 /* Preview Assets.xcassets */; };
+		0A6E3D7E2611264100AFE8F7 /* TeleportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D7D2611264100AFE8F7 /* TeleportTests.swift */; };
+		0A6E3D892611264100AFE8F7 /* TeleportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A6E3D7A2611264100AFE8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6E3D602611263F00AFE8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6E3D672611263F00AFE8F7;
+			remoteInfo = Teleport;
+		};
+		0A6E3D852611264100AFE8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A6E3D602611263F00AFE8F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A6E3D672611263F00AFE8F7;
+			remoteInfo = Teleport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A6E3D682611263F00AFE8F7 /* Teleport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teleport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6E3D6B2611263F00AFE8F7 /* TeleportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleportApp.swift; sourceTree = "<group>"; };
+		0A6E3D6D2611263F00AFE8F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0A6E3D6F2611264000AFE8F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0A6E3D722611264000AFE8F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0A6E3D742611264000AFE8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6E3D792611264100AFE8F7 /* TeleportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6E3D7D2611264100AFE8F7 /* TeleportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleportTests.swift; sourceTree = "<group>"; };
+		0A6E3D7F2611264100AFE8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A6E3D842611264100AFE8F7 /* TeleportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TeleportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeleportUITests.swift; sourceTree = "<group>"; };
+		0A6E3D8A2611264100AFE8F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A6E3D652611263F00AFE8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6E3D762611264100AFE8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6E3D812611264100AFE8F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A6E3D5F2611263F00AFE8F7 = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D6A2611263F00AFE8F7 /* Teleport */,
+				0A6E3D7C2611264100AFE8F7 /* TeleportTests */,
+				0A6E3D872611264100AFE8F7 /* TeleportUITests */,
+				0A6E3D692611263F00AFE8F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A6E3D692611263F00AFE8F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D682611263F00AFE8F7 /* Teleport.app */,
+				0A6E3D792611264100AFE8F7 /* TeleportTests.xctest */,
+				0A6E3D842611264100AFE8F7 /* TeleportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A6E3D6A2611263F00AFE8F7 /* Teleport */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D6B2611263F00AFE8F7 /* TeleportApp.swift */,
+				0A6E3D6D2611263F00AFE8F7 /* ContentView.swift */,
+				0A6E3D6F2611264000AFE8F7 /* Assets.xcassets */,
+				0A6E3D742611264000AFE8F7 /* Info.plist */,
+				0A6E3D712611264000AFE8F7 /* Preview Content */,
+			);
+			path = Teleport;
+			sourceTree = "<group>";
+		};
+		0A6E3D712611264000AFE8F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D722611264000AFE8F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0A6E3D7C2611264100AFE8F7 /* TeleportTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D7D2611264100AFE8F7 /* TeleportTests.swift */,
+				0A6E3D7F2611264100AFE8F7 /* Info.plist */,
+			);
+			path = TeleportTests;
+			sourceTree = "<group>";
+		};
+		0A6E3D872611264100AFE8F7 /* TeleportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3D882611264100AFE8F7 /* TeleportUITests.swift */,
+				0A6E3D8A2611264100AFE8F7 /* Info.plist */,
+			);
+			path = TeleportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A6E3D672611263F00AFE8F7 /* Teleport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6E3D8D2611264100AFE8F7 /* Build configuration list for PBXNativeTarget "Teleport" */;
+			buildPhases = (
+				0A6E3D642611263F00AFE8F7 /* Sources */,
+				0A6E3D652611263F00AFE8F7 /* Frameworks */,
+				0A6E3D662611263F00AFE8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teleport;
+			productName = Teleport;
+			productReference = 0A6E3D682611263F00AFE8F7 /* Teleport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A6E3D782611264100AFE8F7 /* TeleportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6E3D902611264100AFE8F7 /* Build configuration list for PBXNativeTarget "TeleportTests" */;
+			buildPhases = (
+				0A6E3D752611264100AFE8F7 /* Sources */,
+				0A6E3D762611264100AFE8F7 /* Frameworks */,
+				0A6E3D772611264100AFE8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6E3D7B2611264100AFE8F7 /* PBXTargetDependency */,
+			);
+			name = TeleportTests;
+			productName = TeleportTests;
+			productReference = 0A6E3D792611264100AFE8F7 /* TeleportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A6E3D832611264100AFE8F7 /* TeleportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A6E3D932611264100AFE8F7 /* Build configuration list for PBXNativeTarget "TeleportUITests" */;
+			buildPhases = (
+				0A6E3D802611264100AFE8F7 /* Sources */,
+				0A6E3D812611264100AFE8F7 /* Frameworks */,
+				0A6E3D822611264100AFE8F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A6E3D862611264100AFE8F7 /* PBXTargetDependency */,
+			);
+			name = TeleportUITests;
+			productName = TeleportUITests;
+			productReference = 0A6E3D842611264100AFE8F7 /* TeleportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A6E3D602611263F00AFE8F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					0A6E3D672611263F00AFE8F7 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					0A6E3D782611264100AFE8F7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0A6E3D672611263F00AFE8F7;
+					};
+					0A6E3D832611264100AFE8F7 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 0A6E3D672611263F00AFE8F7;
+					};
+				};
+			};
+			buildConfigurationList = 0A6E3D632611263F00AFE8F7 /* Build configuration list for PBXProject "Teleport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A6E3D5F2611263F00AFE8F7;
+			productRefGroup = 0A6E3D692611263F00AFE8F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A6E3D672611263F00AFE8F7 /* Teleport */,
+				0A6E3D782611264100AFE8F7 /* TeleportTests */,
+				0A6E3D832611264100AFE8F7 /* TeleportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A6E3D662611263F00AFE8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E3D732611264000AFE8F7 /* Preview Assets.xcassets in Resources */,
+				0A6E3D702611264000AFE8F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6E3D772611264100AFE8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6E3D822611264100AFE8F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A6E3D642611263F00AFE8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E3D6E2611263F00AFE8F7 /* ContentView.swift in Sources */,
+				0A6E3D6C2611263F00AFE8F7 /* TeleportApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6E3D752611264100AFE8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E3D7E2611264100AFE8F7 /* TeleportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A6E3D802611264100AFE8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A6E3D892611264100AFE8F7 /* TeleportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A6E3D7B2611264100AFE8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6E3D672611263F00AFE8F7 /* Teleport */;
+			targetProxy = 0A6E3D7A2611264100AFE8F7 /* PBXContainerItemProxy */;
+		};
+		0A6E3D862611264100AFE8F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A6E3D672611263F00AFE8F7 /* Teleport */;
+			targetProxy = 0A6E3D852611264100AFE8F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A6E3D8B2611264100AFE8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A6E3D8C2611264100AFE8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A6E3D8E2611264100AFE8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Teleport/Preview Content\"";
+				DEVELOPMENT_TEAM = GT4LQKT46S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Teleport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ipefixe.Teleport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0A6E3D8F2611264100AFE8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Teleport/Preview Content\"";
+				DEVELOPMENT_TEAM = GT4LQKT46S;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Teleport/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ipefixe.Teleport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0A6E3D912611264100AFE8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT4LQKT46S;
+				INFOPLIST_FILE = TeleportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ipefixe.TeleportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teleport.app/Teleport";
+			};
+			name = Debug;
+		};
+		0A6E3D922611264100AFE8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT4LQKT46S;
+				INFOPLIST_FILE = TeleportTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ipefixe.TeleportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Teleport.app/Teleport";
+			};
+			name = Release;
+		};
+		0A6E3D942611264100AFE8F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT4LQKT46S;
+				INFOPLIST_FILE = TeleportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ipefixe.TeleportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teleport;
+			};
+			name = Debug;
+		};
+		0A6E3D952611264100AFE8F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GT4LQKT46S;
+				INFOPLIST_FILE = TeleportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.ipefixe.TeleportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Teleport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A6E3D632611263F00AFE8F7 /* Build configuration list for PBXProject "Teleport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6E3D8B2611264100AFE8F7 /* Debug */,
+				0A6E3D8C2611264100AFE8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6E3D8D2611264100AFE8F7 /* Build configuration list for PBXNativeTarget "Teleport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6E3D8E2611264100AFE8F7 /* Debug */,
+				0A6E3D8F2611264100AFE8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6E3D902611264100AFE8F7 /* Build configuration list for PBXNativeTarget "TeleportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6E3D912611264100AFE8F7 /* Debug */,
+				0A6E3D922611264100AFE8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A6E3D932611264100AFE8F7 /* Build configuration list for PBXNativeTarget "TeleportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A6E3D942611264100AFE8F7 /* Debug */,
+				0A6E3D952611264100AFE8F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A6E3D602611263F00AFE8F7 /* Project object */;
+}
