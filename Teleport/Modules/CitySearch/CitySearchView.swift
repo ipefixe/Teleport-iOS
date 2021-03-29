@@ -23,7 +23,7 @@ struct CitySearchView: View {
                 .padding()
             
             List(viewModel.citySearch.results, id: \.self) {
-                Text($0.fullName)
+                CityResultView(citySearchResult: $0)
             }
             
             Spacer()

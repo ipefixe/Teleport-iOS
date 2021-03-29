@@ -16,7 +16,7 @@ struct City {
     
     init(from data: CityData) {
         fullName = data.fullName
-        name = data.fullName
+        name = data.name
         population = data.population
         geonameID = data.geonameID
         urbanAreaResource = data.links.cityUrbanArea.href

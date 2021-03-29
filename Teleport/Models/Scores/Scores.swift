@@ -27,7 +27,7 @@ struct Scores {
     }
 }
 
-struct ScoreCategory {
+struct ScoreCategory: Hashable {
     let color: String
     let name: String
     let scoreOutOf10: Double

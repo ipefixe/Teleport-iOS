@@ -10,8 +10,15 @@ import SwiftUI
 struct CityDetailsView: View {
     @ObservedObject private var viewModel = CityDetailsViewModel()
     
+    init(citySearchResult: CitySearchResult) {
+        viewModel.fetchCityDetails(from: citySearchResult.cityResource)
+    }
+    
     var body: some View {
-        Text("City Details View")
-            .navigationBarTitle(viewModel.city.name)
+        CitySummariesView(fullName: viewModel.city.fullName, population: viewModel.city.population, score: viewModel.scores.teleportCityScore)
+        List(viewModel.scores.categories, id: \.self) {
+            ScoreView(score: $0)
+        }
+        .navigationBarTitle(viewModel.city.name)
     }
 }
