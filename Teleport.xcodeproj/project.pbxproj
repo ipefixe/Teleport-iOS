@@ -31,6 +31,7 @@
 		0A6E3E272612639F00AFE8F7 /* CityResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E262612639F00AFE8F7 /* CityResultView.swift */; };
 		0A6E3E332612691100AFE8F7 /* CitySummariesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E322612691100AFE8F7 /* CitySummariesView.swift */; };
 		0A6E3E3826126F7000AFE8F7 /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E3726126F7000AFE8F7 /* ScoreView.swift */; };
+		0A6E3E3D26127C8500AFE8F7 /* NoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E3C26127C8500AFE8F7 /* NoDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		0A6E3E262612639F00AFE8F7 /* CityResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityResultView.swift; sourceTree = "<group>"; };
 		0A6E3E322612691100AFE8F7 /* CitySummariesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySummariesView.swift; sourceTree = "<group>"; };
 		0A6E3E3726126F7000AFE8F7 /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		0A6E3E3C26127C8500AFE8F7 /* NoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -284,6 +286,7 @@
 			children = (
 				0A6E3E322612691100AFE8F7 /* CitySummariesView.swift */,
 				0A6E3E3726126F7000AFE8F7 /* ScoreView.swift */,
+				0A6E3E3C26127C8500AFE8F7 /* NoDetailView.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -433,6 +436,7 @@
 				0A6E3E042611BEDB00AFE8F7 /* ScoresData.swift in Sources */,
 				0A6E3DB4261129F600AFE8F7 /* CitySearch.swift in Sources */,
 				0A6E3DDA2611B9B400AFE8F7 /* UrbanAreaData.swift in Sources */,
+				0A6E3E3D26127C8500AFE8F7 /* NoDetailView.swift in Sources */,
 				0A6E3E1E26125BBB00AFE8F7 /* LinkData.swift in Sources */,
 				0A6E3DE82611BD1100AFE8F7 /* Images.swift in Sources */,
 				0A6E3DDF2611BBE900AFE8F7 /* UrbanArea.swift in Sources */,
