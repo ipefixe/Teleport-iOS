@@ -45,14 +45,9 @@ struct CitySearchResultsData: Codable {
 
 // MARK: - CitySearchResultLinksData
 struct CitySearchResultLinksData: Codable {
-    let cityItem: SelfLinkData
+    let cityItem: LinkData
     
     enum CodingKeys: String, CodingKey {
         case cityItem = "city:item"
     }
-}
-
-// MARK: - SelfLinkData
-struct SelfLinkData: Codable {
-    let href: String
 }

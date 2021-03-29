@@ -11,7 +11,7 @@ struct CitySearch {
     let count: Int
     let results: [CitySearchResult]
     
-    init(from data: CitySearchData) {
+     init(from data: CitySearchData) {
         count = data.count
         results = data.embedded.citySearchResults.map({ (citySearchResultData) -> CitySearchResult in
             CitySearchResult(from: citySearchResultData)
@@ -26,10 +26,10 @@ struct CitySearch {
 
 struct CitySearchResult: Hashable {
     let fullName: String
-    let urlToCityResource: String
+    let cityResource: String
     
     init(from data: CitySearchResultsData) {
         fullName = data.matchingFullName
-        urlToCityResource = data.links.cityItem.href
+        cityResource = data.links.cityItem.href
     }
 }

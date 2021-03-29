@@ -17,6 +17,17 @@
 		0A6E3DAB261128F600AFE8F7 /* CitySearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DAA261128F600AFE8F7 /* CitySearchViewModel.swift */; };
 		0A6E3DB4261129F600AFE8F7 /* CitySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DB3261129F600AFE8F7 /* CitySearch.swift */; };
 		0A6E3DBC26112A5000AFE8F7 /* CitySearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DBB26112A5000AFE8F7 /* CitySearchData.swift */; };
+		0A6E3DC42611B6B500AFE8F7 /* CityData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DC32611B6B500AFE8F7 /* CityData.swift */; };
+		0A6E3DCF2611B87A00AFE8F7 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DCE2611B87A00AFE8F7 /* City.swift */; };
+		0A6E3DDA2611B9B400AFE8F7 /* UrbanAreaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DD92611B9B400AFE8F7 /* UrbanAreaData.swift */; };
+		0A6E3DDF2611BBE900AFE8F7 /* UrbanArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DDE2611BBE900AFE8F7 /* UrbanArea.swift */; };
+		0A6E3DE82611BD1100AFE8F7 /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DE72611BD1100AFE8F7 /* Images.swift */; };
+		0A6E3DF02611BD1C00AFE8F7 /* ImagesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DEF2611BD1C00AFE8F7 /* ImagesData.swift */; };
+		0A6E3DFC2611BED000AFE8F7 /* Scores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3DFB2611BED000AFE8F7 /* Scores.swift */; };
+		0A6E3E042611BEDB00AFE8F7 /* ScoresData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E032611BEDB00AFE8F7 /* ScoresData.swift */; };
+		0A6E3E132611DB7C00AFE8F7 /* CityDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E122611DB7C00AFE8F7 /* CityDetailsView.swift */; };
+		0A6E3E182611DC0100AFE8F7 /* CityDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E172611DC0100AFE8F7 /* CityDetailsViewModel.swift */; };
+		0A6E3E1E26125BBB00AFE8F7 /* LinkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A6E3E1D26125BBB00AFE8F7 /* LinkData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,17 @@
 		0A6E3DAA261128F600AFE8F7 /* CitySearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchViewModel.swift; sourceTree = "<group>"; };
 		0A6E3DB3261129F600AFE8F7 /* CitySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearch.swift; sourceTree = "<group>"; };
 		0A6E3DBB26112A5000AFE8F7 /* CitySearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchData.swift; sourceTree = "<group>"; };
+		0A6E3DC32611B6B500AFE8F7 /* CityData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityData.swift; sourceTree = "<group>"; };
+		0A6E3DCE2611B87A00AFE8F7 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		0A6E3DD92611B9B400AFE8F7 /* UrbanAreaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanAreaData.swift; sourceTree = "<group>"; };
+		0A6E3DDE2611BBE900AFE8F7 /* UrbanArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrbanArea.swift; sourceTree = "<group>"; };
+		0A6E3DE72611BD1100AFE8F7 /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		0A6E3DEF2611BD1C00AFE8F7 /* ImagesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesData.swift; sourceTree = "<group>"; };
+		0A6E3DFB2611BED000AFE8F7 /* Scores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scores.swift; sourceTree = "<group>"; };
+		0A6E3E032611BEDB00AFE8F7 /* ScoresData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoresData.swift; sourceTree = "<group>"; };
+		0A6E3E122611DB7C00AFE8F7 /* CityDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsView.swift; sourceTree = "<group>"; };
+		0A6E3E172611DC0100AFE8F7 /* CityDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityDetailsViewModel.swift; sourceTree = "<group>"; };
+		0A6E3E1D26125BBB00AFE8F7 /* LinkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +129,7 @@
 				0A6E3D6D2611263F00AFE8F7 /* ContentView.swift */,
 				0A6E3D742611264000AFE8F7 /* Info.plist */,
 				0A6E3DA0261126A500AFE8F7 /* Modules */,
+				0A6E3E082611D7A100AFE8F7 /* Models */,
 				0A6E3D992611264F00AFE8F7 /* Resources */,
 				0A6E3D712611264000AFE8F7 /* Preview Content */,
 			);
@@ -151,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				0A6E3DA1261126B500AFE8F7 /* CitySearch */,
+				0A6E3DC12611B66D00AFE8F7 /* CityDetails */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -158,20 +182,85 @@
 		0A6E3DA1261126B500AFE8F7 /* CitySearch */ = {
 			isa = PBXGroup;
 			children = (
-				0A6E3DB2261129A300AFE8F7 /* Model */,
 				0A6E3DA2261126CE00AFE8F7 /* CitySearchView.swift */,
 				0A6E3DAA261128F600AFE8F7 /* CitySearchViewModel.swift */,
 			);
 			path = CitySearch;
 			sourceTree = "<group>";
 		};
-		0A6E3DB2261129A300AFE8F7 /* Model */ = {
+		0A6E3DC12611B66D00AFE8F7 /* CityDetails */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3E122611DB7C00AFE8F7 /* CityDetailsView.swift */,
+				0A6E3E172611DC0100AFE8F7 /* CityDetailsViewModel.swift */,
+			);
+			path = CityDetails;
+			sourceTree = "<group>";
+		};
+		0A6E3DCB2611B84F00AFE8F7 /* City */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DCE2611B87A00AFE8F7 /* City.swift */,
+				0A6E3DC32611B6B500AFE8F7 /* CityData.swift */,
+			);
+			path = City;
+			sourceTree = "<group>";
+		};
+		0A6E3DCC2611B85500AFE8F7 /* UrbanArea */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DDE2611BBE900AFE8F7 /* UrbanArea.swift */,
+				0A6E3DD92611B9B400AFE8F7 /* UrbanAreaData.swift */,
+			);
+			path = UrbanArea;
+			sourceTree = "<group>";
+		};
+		0A6E3DCD2611B86200AFE8F7 /* CitySearch */ = {
 			isa = PBXGroup;
 			children = (
 				0A6E3DB3261129F600AFE8F7 /* CitySearch.swift */,
 				0A6E3DBB26112A5000AFE8F7 /* CitySearchData.swift */,
 			);
-			path = Model;
+			path = CitySearch;
+			sourceTree = "<group>";
+		};
+		0A6E3DE62611BD0400AFE8F7 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DE72611BD1100AFE8F7 /* Images.swift */,
+				0A6E3DEF2611BD1C00AFE8F7 /* ImagesData.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		0A6E3DFA2611BEC300AFE8F7 /* Scores */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3DFB2611BED000AFE8F7 /* Scores.swift */,
+				0A6E3E032611BEDB00AFE8F7 /* ScoresData.swift */,
+			);
+			path = Scores;
+			sourceTree = "<group>";
+		};
+		0A6E3E082611D7A100AFE8F7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3E1C26125B8800AFE8F7 /* Common */,
+				0A6E3DCD2611B86200AFE8F7 /* CitySearch */,
+				0A6E3DCB2611B84F00AFE8F7 /* City */,
+				0A6E3DCC2611B85500AFE8F7 /* UrbanArea */,
+				0A6E3DE62611BD0400AFE8F7 /* Images */,
+				0A6E3DFA2611BEC300AFE8F7 /* Scores */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0A6E3E1C26125B8800AFE8F7 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				0A6E3E1D26125BBB00AFE8F7 /* LinkData.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,12 +392,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A6E3E182611DC0100AFE8F7 /* CityDetailsViewModel.swift in Sources */,
+				0A6E3E132611DB7C00AFE8F7 /* CityDetailsView.swift in Sources */,
 				0A6E3DA3261126CE00AFE8F7 /* CitySearchView.swift in Sources */,
+				0A6E3DC42611B6B500AFE8F7 /* CityData.swift in Sources */,
 				0A6E3DAB261128F600AFE8F7 /* CitySearchViewModel.swift in Sources */,
 				0A6E3DBC26112A5000AFE8F7 /* CitySearchData.swift in Sources */,
 				0A6E3D6E2611263F00AFE8F7 /* ContentView.swift in Sources */,
 				0A6E3D6C2611263F00AFE8F7 /* TeleportApp.swift in Sources */,
+				0A6E3DCF2611B87A00AFE8F7 /* City.swift in Sources */,
+				0A6E3DFC2611BED000AFE8F7 /* Scores.swift in Sources */,
+				0A6E3E042611BEDB00AFE8F7 /* ScoresData.swift in Sources */,
 				0A6E3DB4261129F600AFE8F7 /* CitySearch.swift in Sources */,
+				0A6E3DDA2611B9B400AFE8F7 /* UrbanAreaData.swift in Sources */,
+				0A6E3E1E26125BBB00AFE8F7 /* LinkData.swift in Sources */,
+				0A6E3DE82611BD1100AFE8F7 /* Images.swift in Sources */,
+				0A6E3DDF2611BBE900AFE8F7 /* UrbanArea.swift in Sources */,
+				0A6E3DF02611BD1C00AFE8F7 /* ImagesData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

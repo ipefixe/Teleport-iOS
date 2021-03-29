@@ -1,5 +1,5 @@
 //
-//  File.swift
+//  CitySearchViewModel.swift
 //  Teleport
 //
 //  Created by Kevin Boulala on 28/03/2021.
