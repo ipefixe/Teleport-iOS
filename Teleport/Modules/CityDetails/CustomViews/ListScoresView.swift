@@ -16,7 +16,7 @@ struct ListScoresView: View {
     
     var body: some View {
         VStack {
-            CitySummariesView(fullName: viewModel.city.fullName, population: viewModel.city.population, score: viewModel.scores.teleportCityScore)
+            CitySummariesView(fullName: viewModel.city.fullName, population: viewModel.city.population, score: viewModel.scores.teleportCityScore, image: viewModel.image)
             List {
                 ForEach(viewModel.scores.categories, id: \.self) {
                     ScoreView(score: $0)

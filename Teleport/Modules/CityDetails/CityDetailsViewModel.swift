@@ -32,7 +32,9 @@ class CityDetailsViewModel: ObservableObject {
     private var imagesData = ImagesData() {
         didSet {
             images = Images(from: imagesData)
-            fetchScores(from: urbanArea.scoresResource)
+            if let url = images.web {
+                fetchImage(at: url)
+            }
         }
     }
     
@@ -41,6 +43,16 @@ class CityDetailsViewModel: ObservableObject {
         didSet {
             scores = Scores(from: scoresData)
         }
+    }
+    
+    @Published var image: UIImage? {
+        didSet {
+            fetchScores(from: urbanArea.scoresResource)
+        }
+    }
+    
+    deinit {
+        task?.cancel()
     }
     
     func fetchCityDetails(from cityResource: String) {
@@ -89,5 +101,15 @@ class CityDetailsViewModel: ObservableObject {
             .eraseToAnyPublisher()
             .receive(on: RunLoop.main)
             .assign(to: \CityDetailsViewModel.scoresData, on: self)
+    }
+    
+    private func fetchImage(at urlString: String) {
+        guard let url = URL(string: urlString) else { return }
+        
+        task = URLSession.shared.dataTaskPublisher(for: url)
+            .map { UIImage(data: $0.data) }
+            .replaceError(with: nil)
+            .receive(on: RunLoop.main)
+            .assign(to: \CityDetailsViewModel.image, on: self)
     }
 }

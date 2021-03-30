@@ -23,6 +23,10 @@ class CitySearchViewModel: ObservableObject {
         }
     }
     
+    deinit {
+        task?.cancel()
+    }
+    
     func search(city: String) {
         isLoading = true
         
