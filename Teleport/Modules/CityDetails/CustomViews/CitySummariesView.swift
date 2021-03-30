@@ -23,8 +23,7 @@ struct CitySummariesView: View {
             Text("\(fullName) (pop: \(population))")
             Text("Global score: \(String(format: "%.02f", score))/100")
                 .fontWeight(.black)
-                .foregroundColor(.pink)
-                .shadow(color: .black, radius: 4)
+                .importantStyle()
                 .padding()
         }
     }

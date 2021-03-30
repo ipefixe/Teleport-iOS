@@ -13,8 +13,7 @@ struct LoadingResultView: View {
         VStack(alignment: .center, spacing: 20) {
             ProgressView()
             Text("We are searching for your results 😊")
-                .foregroundColor(.pink)
-                .shadow(color: .black, radius: 4)
+                .importantStyle()
         }
     }
 }

@@ -17,8 +17,7 @@ struct CityResultView: View {
     var body: some View {
         NavigationLink(destination: CityDetailsView(citySearchResult: citySearchResult)) {
             Text(citySearchResult.fullName)
-                .foregroundColor(.pink)
-                .shadow(color: .black, radius: 4)
+                .importantStyle()
         }
     }
 }
