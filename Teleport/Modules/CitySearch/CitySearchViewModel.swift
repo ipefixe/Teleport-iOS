@@ -23,7 +23,7 @@ class CitySearchViewModel: ObservableObject {
     
     func search(city: String) {
         guard !city.isEmpty,
-              let url = URL(string: url + city) else {
+              let url = URL(string: url + city.trimmingCharacters(in: .whitespaces)) else {
             citySearchData = CitySearchData()
             return
         }
