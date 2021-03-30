@@ -15,14 +15,15 @@ struct CityDetailsView: View {
     }
     
     var body: some View {
-        if viewModel.city.fullName.isEmpty {
-            NoDetailView()
-        } else {
-            CitySummariesView(fullName: viewModel.city.fullName, population: viewModel.city.population, score: viewModel.scores.teleportCityScore)
-            List(viewModel.scores.categories, id: \.self) {
-                ScoreView(score: $0)
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
+            
+            if viewModel.city.fullName.isEmpty {
+                NoDetailView()
+            } else {
+                ListScoresView(viewModel: viewModel)
             }
-            .navigationBarTitle(viewModel.city.name)
         }
     }
 }

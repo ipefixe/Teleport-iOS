@@ -17,5 +17,6 @@ struct NoDetailView: View {
                 .fontWeight(.heavy)
             Text("🙈")
         }
+        .navigationBarTitle("No data")
     }
 }

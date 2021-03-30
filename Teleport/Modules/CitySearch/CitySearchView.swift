@@ -11,23 +11,32 @@ struct CitySearchView: View {
     @ObservedObject private var viewModel = CitySearchViewModel()
     @State private var cityToSearch = ""
     
+    init() {
+        UITableView.appearance().backgroundColor = .clear
+        UITableViewCell.appearance().backgroundColor = .clear
+    }
+    
     var body: some View {
-        VStack {
-            TextField("Search a city 🌍", text: $cityToSearch, onCommit: {
-                viewModel.search(city: cityToSearch)
-            })
-            .textFieldStyle(RoundedBorderTextFieldStyle())
-            .padding()
+        ZStack {
+            LinearGradient(gradient: Gradient(colors: [.gray, .black]), startPoint: .topLeading, endPoint: .bottomTrailing)
+                .edgesIgnoringSafeArea(.all)
             
-            Text("Result\(viewModel.citySearch.count > 1 ? "s" : ""): \(viewModel.citySearch.count)")
+            VStack {
+                TextField("Search a city 🌍", text: $cityToSearch, onCommit: {
+                    viewModel.search(city: cityToSearch)
+                })
+                .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
-            
-            List(viewModel.citySearch.results, id: \.self) {
-                CityResultView(citySearchResult: $0)
+                
+                if viewModel.citySearch.count > 0 {
+                    CityResultsView(cityResults: viewModel.citySearch.results)
+                } else {
+                    NoResultView()
+                }
+                
+                Spacer()
             }
-            
-            Spacer()
+            .navigationBarTitle("Teleport")
         }
-        .navigationBarTitle("Teleport")
     }
 }
