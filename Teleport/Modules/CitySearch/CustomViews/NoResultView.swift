@@ -10,7 +10,6 @@ import SwiftUI
 struct NoResultView: View {
     
     var body: some View {
-        Spacer()
         Text("Which city are you interested in?")
             .fontWeight(.heavy)
     }

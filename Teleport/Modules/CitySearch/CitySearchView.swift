@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CitySearchView: View {
     @ObservedObject private var viewModel = CitySearchViewModel()
+    
     @State private var cityToSearch = ""
     
     init() {
@@ -28,10 +29,14 @@ struct CitySearchView: View {
                 .textFieldStyle(RoundedBorderTextFieldStyle())
                 .padding()
                 
-                if viewModel.citySearch.count > 0 {
-                    CityResultsView(cityResults: viewModel.citySearch.results)
+                if viewModel.isLoading {
+                    LoadingResultView()
                 } else {
-                    NoResultView()
+                    if viewModel.citySearch.count > 0 {
+                        CityResultsView(cityResults: viewModel.citySearch.results)
+                    } else {
+                        NoResultView()
+                    }
                 }
                 
                 Spacer()

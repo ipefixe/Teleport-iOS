@@ -14,14 +14,18 @@ class CitySearchViewModel: ObservableObject {
     private var task: AnyCancellable?
     
     @Published var citySearch = CitySearch()
+    @Published var isLoading = false
     
     private var citySearchData = CitySearchData() {
         didSet {
             citySearch = CitySearch(from: citySearchData)
+            isLoading = false
         }
     }
     
     func search(city: String) {
+        isLoading = true
+        
         guard !city.isEmpty,
               let url = URL(string: url + city.trimmingCharacters(in: .whitespaces)) else {
             citySearchData = CitySearchData()

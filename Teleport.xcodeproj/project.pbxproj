@@ -35,6 +35,7 @@
 		0AECDC2D2613B24F00DAA6E2 /* CityResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECDC2C2613B24F00DAA6E2 /* CityResultsView.swift */; };
 		0AECDC322613B2DA00DAA6E2 /* NoResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECDC312613B2DA00DAA6E2 /* NoResultView.swift */; };
 		0AECDC372613B36000DAA6E2 /* ListScoresView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECDC362613B36000DAA6E2 /* ListScoresView.swift */; };
+		0AECDC402613B6CE00DAA6E2 /* LoadingResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AECDC3F2613B6CE00DAA6E2 /* LoadingResultView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		0AECDC2C2613B24F00DAA6E2 /* CityResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityResultsView.swift; sourceTree = "<group>"; };
 		0AECDC312613B2DA00DAA6E2 /* NoResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoResultView.swift; sourceTree = "<group>"; };
 		0AECDC362613B36000DAA6E2 /* ListScoresView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScoresView.swift; sourceTree = "<group>"; };
+		0AECDC3F2613B6CE00DAA6E2 /* LoadingResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 		0A6E3DA0261126A500AFE8F7 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				0AECDC472613BB7E00DAA6E2 /* CommonCustomView */,
 				0A6E3DA1261126B500AFE8F7 /* CitySearch */,
 				0A6E3DC12611B66D00AFE8F7 /* CityDetails */,
 			);
@@ -298,6 +301,14 @@
 				0A6E3E3C26127C8500AFE8F7 /* NoDetailView.swift */,
 			);
 			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		0AECDC472613BB7E00DAA6E2 /* CommonCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				0AECDC3F2613B6CE00DAA6E2 /* LoadingResultView.swift */,
+			);
+			path = CommonCustomView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -453,6 +464,7 @@
 				0A6E3DDF2611BBE900AFE8F7 /* UrbanArea.swift in Sources */,
 				0AECDC2D2613B24F00DAA6E2 /* CityResultsView.swift in Sources */,
 				0A6E3DF02611BD1C00AFE8F7 /* ImagesData.swift in Sources */,
+				0AECDC402613B6CE00DAA6E2 /* LoadingResultView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
